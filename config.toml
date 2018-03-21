@@ -1,0 +1,47 @@
+languageCode = "en-us"
+title = "Winston Laoh"
+
+theme = "coder"
+
+[permalinks]
+    post = "posts/:title/"
+    default = ":title/"
+
+[params]
+    author = "Winston Laoh"
+    info = "Software Engineer (Test & Infrastructure)"
+    description = "Winston Laoh's personal website" # site description
+    keywords = "blog,engineer,qa,personal" # site keywords
+    
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/wlaoh/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/WinstonLaoh/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/winston-laoh-22aa3219/"
+[[params.social]]
+    name = "Email"
+    weight = 4
+    url = "mailto:winston@laoh.me"
+
+# Menu links
+# [[menu.main]]
+#     name = "Blog"
+#     weight = 1
+#     url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "/about/"
+[[menu.main]]
+    name = "Resume"
+    weight = 2
+    url = "/resume/"
+
